@@ -40,7 +40,7 @@ data <- data[, KeepCol]
 colnames(data) <- c(features$V2, "activity", "subject")
 colnames(data) <- tolower(colnames(data))
 
-# 
+# Activity/Subject
 currentActivity <- 1
 for(currentActivityLabel in activities$V2)
 {
